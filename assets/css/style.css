@@ -1,0 +1,64 @@
+/* Header Section */
+
+header{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+header nav{
+    margin-left: auto;
+
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+header nav ul li{
+    margin: 15px;
+    list-style-type: none;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+/* Main Sections */
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+/* About Me Section */
+
+#about-me{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-me-container{
+    margin: 20px;
+    width: 50%;
+}
+
+/* Projects Section */
+
+#hw1 {
+    background-image: url(https://paynejc.github.io/Homework1/);
+}
+
+#ph1 {
+
+}
+
+#ph2 {
+
+}
