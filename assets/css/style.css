@@ -52,13 +52,37 @@ section {
 /* Projects Section */
 
 #hw1 {
-    background-image: url(https://paynejc.github.io/Homework1/);
+    /* LINK IMAGE HERE!!!!!! background-image: url("./assets/images/FILENAME"); */
+    background-color: blue;
+    width: 800px;
+    height: 500px;
+
 }
 
-#ph1 {
+.ph {
+    background-image: url("https://www.fillmurray.com/400/300");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
 
+#project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #ph2 {
 
+}
+
+@media  screen and (max-width: 768px) {
+
+    #hw1 {
+        width: 500px;
+        height: 350px;
+    }
+    
 }
