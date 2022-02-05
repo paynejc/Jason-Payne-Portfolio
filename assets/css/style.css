@@ -52,10 +52,32 @@ section {
 /* Projects Section */
 
 #hw1 {
-    /* LINK IMAGE HERE!!!!!! background-image: url("./assets/images/FILENAME"); */
-    background-color: blue;
-    width: 800px;
-    height: 500px;
+    background: url('assets/images/hw1.png');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+
+}
+
+#Planner {
+    background: url("https://user-images.githubusercontent.com/8907347/149627642-4815a7d0-40e4-4904-b623-57c54f80c1cb.PNG");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+
+}
+
+#Project1 {
+    background: url("assets/images/mars.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
 
 }
 
