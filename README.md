@@ -8,6 +8,7 @@ In this update we add a few things to the Portfolio
 Updated Resume, LinkedIn, Homework assignments, and Project 1. 
 Also updated the GitHub Profile.
 
-https://paynejc.github.io/Jason-Payne-Portfolio/!
+https://paynejc.github.io/Jason-Payne-Portfolio/
 
-[Portfolio Screenshot](https://user-images.githubusercontent.com/8907347/156870351-e57c58c6-f025-4e55-87fa-23b64af68dc8.JPG)
+
+![Portfolio Screenshot](https://user-images.githubusercontent.com/8907347/156870384-b48a01ff-5aa2-4151-ae9c-7dd2507b7e43.JPG)
