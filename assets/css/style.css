@@ -116,7 +116,25 @@ section {
     width: 400px;
     height: 300px;
     margin: 20px;
+}
 
+#Weather {
+    background: url("https://user-images.githubusercontent.com/8907347/155858948-dfd34e61-6c73-4bf6-8dcf-e3051b1358fa.JPG");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+#Password {
+    background: url("https://user-images.githubusercontent.com/8907347/155062627-9a03b819-b064-4aef-a6f9-5a8099e9f9af.JPG");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
 
 
 #project-container {
