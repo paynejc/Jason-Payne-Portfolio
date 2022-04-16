@@ -1,74 +1,97 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Jason Payne</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://github.com/paynejc">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/jason-payne-08608b16/">LinkedIn</a></li>
-                <li><a
-                        href="https://docs.google.com/document/d/1HnnaxqtDMmcVqTgzSz8uwlzQp3KMWjyXjNjsrm4lJGw/edit?usp=sharing">Resume</a>
-                </li>
-            </ul>
-        </nav>
+      <h1>Jason Payne</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/paynejc">GitHub</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/jason-payne-08608b16/"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/document/d/1HnnaxqtDMmcVqTgzSz8uwlzQp3KMWjyXjNjsrm4lJGw/edit?usp=sharing"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <section id="about-me">
-        <img src="./assets/images/Portfolio Image.jpg" alt="profile photo of Jason Payne">
-        <div class="about-me-container">
-            <h2>About Me</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque placeat nemo nihil, distinctio, debitis
-                autem necessitatibus sequi at voluptates cupiditate laboriosam porro dicta odio id fuga corrupti
-                voluptas laborum quaerat!</p>
-
-        </div>
-
+      <img
+        src="./assets/images/Portfolio Image.jpg"
+        alt="profile photo of Jason Payne"
+      />
+      <div class="about-me-container">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+          placeat nemo nihil, distinctio, debitis autem necessitatibus sequi at
+          voluptates cupiditate laboriosam porro dicta odio id fuga corrupti
+          voluptas laborum quaerat!
+        </p>
+      </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div id="project-container">
-            <a href="https://paynejc.github.io/Homework1/">
-                <div id="hw1">Homework 1</div>
-
-            </a>
-            <a href="https://paynejc.github.io/Planner/">
-                <div id="Planner">Planner</div>
-
-            </a>
-            <a href="https://geneviealba.github.io/odd-firebirds-project-/">
-                <div id="Project1">Project 1</div>
-
-            </a>
-            <div id="ph2" class="ph">Place Holder</div>
-            <div id="ph3" class="ph">Place Holder</div>
-            <div id="ph4" class="ph">Place Holder</div>
+      <h2>Projects</h2>
+      <div id="project-container">
+        <div class="project-card">
+          <a href="https://paynejc.github.io/Homework1/">
+            <div id="hw1"></div>
+            <p class="card-label">Homework 1</p>
+          </a>
         </div>
-
+        <div class="project-card">
+          <a href="https://paynejc.github.io/Planner/">
+            <div id="Planner"></div>
+            <p class="card-label">Planner</p>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="https://geneviealba.github.io/odd-firebirds-project-/">
+            <div id="Project1"></div>
+            <p class="card-label">Project 1</p>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="https://github.com/paynejc/Team-Profile-Generator">
+            <div id="Team"></div>
+            <p class="card-label">Team</p>
+          </a>
+        </div>
+        
+      </div>
     </section>
-    <section id="contact">
+    <footer>
+      <section id="contact">
         <h2>Email</h2>
         <p>fakeemail@gmail.com</p>
         <h2>Phone</h2>
         <p>555-555-555</p>
-    </section>
-
-
-
-
-</body>
-
+      </section>
+    </footer>
+  </body>
 </html>
